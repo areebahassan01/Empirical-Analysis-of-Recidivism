@@ -8,3 +8,8 @@ Bias is a prevalent issue in algorithms like these, and it has the potential to 
 
 We employed two sets of data for our project: a raw data file and a two-year data file that indicated whether or not the convicted individuals had committed new crimes during that time.
 We began with the raw file, cleaned it up, and ran hypothesis tests and EDA to see how the recommended supervision level and decile score—a scale of 1 to 10 that indicates the likelihood of a convicted person committing another crime—were distributed among the races in our data. On the two-year data file, we then carried out the same procedure.
+
+Next, using our pre-existing clean data, we ran a variety of machine learning models on it such as Logistic Regression, Decision Tree, Clustering K-Means, Ensemble Methods and Correlation Analysis. Using confusion matrices, we searched for false positives and false negatives that our models predicted as evidence of the bias in our data.
+
+# Conclusion-
+Our research led us to the conclusion that COMPAS is a defective algorithm and that the data is, in fact, biased against African Americans.
